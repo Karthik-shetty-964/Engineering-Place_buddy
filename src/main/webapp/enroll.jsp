@@ -29,7 +29,7 @@
 			          <a class="nav-link  btn btn-outline-info badge-pill px-3" aria-current="page" href="home.jsp">Home</a>
 			        </li>
 			        <li class="nav-item ms-3">
-			          <a class="nav-link btn btn-outline-info badge-pill px-3" href="#">Corp Home</a>
+			          <a class="nav-link btn btn-outline-info badge-pill px-3" href="companies.jsp">Corp Home</a>
 			        </li>
 			        <li class="nav-item ms-3">
 			          <a class="nav-link btn active btn-outline-info badge-pill px-3" href="enroll.jsp">Enroll Candidate</a>
