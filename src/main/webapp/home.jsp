@@ -35,7 +35,7 @@
 			          <a class="nav-link btn btn-outline-info badge-pill px-3" href="enroll.jsp">Enroll Candidate</a>
 			        </li>
 			         <li class="nav-item  ms-3">
-			          <a class="nav-link btn btn-outline-info badge-pill px-3" href="#">Find Candidate</a>
+			          <a class="nav-link btn btn-outline-info badge-pill px-3" href="find.jsp">Find Candidates</a>
 			        </li>
 			         <li class="nav-item  ms-3">
 			          <a class="nav-link btn btn-outline-info badge-pill px-3" href="list.jsp">List Candidates</a>

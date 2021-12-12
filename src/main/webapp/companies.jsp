@@ -35,7 +35,7 @@
 					          <a class="nav-link btn btn-outline-info badge-pill px-3" href="enroll.jsp">Enroll Candidate</a>
 					        </li>
 					         <li class="nav-item  ms-3">
-					          <a class="nav-link btn btn-outline-info badge-pill px-3" href="#">Find Candidate</a>
+					          <a class="nav-link btn btn-outline-info badge-pill px-3" href="find.jsp">Find Candidates</a>
 					        </li>
 					         <li class="nav-item  ms-3">
 					          <a class="nav-link btn btn-outline-info badge-pill px-3" href="list.jsp">List Candidates</a>
@@ -56,7 +56,7 @@
 							  <h1 class="card-title text-center">Microsoft</h1>
 									<div class="card-body">
 										<p class="display-4 card-text text-center">45.6 Lph</p>
-										<p class="card-text float-start">Java Stack</p>
+										<p class="card-text float-start">Java,python,.net</p>
 										<p class="card-text float-end">2022-01-13</p>
 									</div>
 							</div>
@@ -76,7 +76,7 @@
 							  <h1 class="card-title text-center">Wipro</h1>
 										<div class="card-body">
 											<p class="display-4 card-text text-center">18 Lph</p>
-											<p class="card-text float-start">Python</p>
+											<p class="card-text float-start">Python,c#</p>
 											<p class="card-text float-end">2022-01-13</p>
 										</div>
 							</div>
@@ -85,7 +85,7 @@
 							  <h1 class="card-title text-center">Microsoft</h1>
 										<div class="card-body">
 											<p class="display-4 card-text text-center">35 Lph</p>
-											<p class="card-text float-start">Web developer</p>
+											<p class="card-text float-start">Web developer,react js</p>
 											<p class="card-text float-end">2022-01-13</p>
 										</div>
 							</div>
@@ -94,7 +94,7 @@
 							  <h1 class="card-title text-center">Microsoft</h1>
 										<div class="card-body">
 											<p class="display-4 card-text text-center">10 Lph</p>
-											<p class="card-text float-start">Android developer</p>
+											<p class="card-text float-start">Android developer,java,kotlin</p>
 											<p class="card-text float-end">2022-01-13</p>
 										</div>
 							</div>

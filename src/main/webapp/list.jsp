@@ -15,6 +15,7 @@
 </head>
 <body>
 	<div class="container-fluid">
+	       
 		    <div class="row nav-bar">
 		     	   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 					 <div class="container-fluid ">
@@ -35,7 +36,7 @@
 					          <a class="nav-link btn btn-outline-info badge-pill px-3" href="enroll.jsp">Enroll Candidate</a>
 					        </li>
 					         <li class="nav-item  ms-3">
-					          <a class="nav-link btn btn-outline-info badge-pill px-3" href="#">Find Candidate</a>
+					          <a class="nav-link btn btn-outline-info badge-pill px-3" href="find.jsp">Find Candidates</a>
 					        </li>
 					         <li class="nav-item  ms-3">
 					          <a class="nav-link btn btn-outline-info active badge-pill px-3" href="list.jsp">Candidates List </a>
@@ -48,6 +49,7 @@
 					  </div>
 					</nav>
 		     	</div>
+		     	<h1 class="text-center mt-2 p-2 text-success" style="font-family: 'Merriweather', serif;">Enrolled students of campus interviews</h1>
 		    <div class="row justify-content-center">
 		 		<div class="table-responsive-lg">
 		 			<table class="table col-lg-8 col-12 col-sm-12  table-hover table-striped shadow-lg mt-2">
@@ -89,10 +91,36 @@
 		 			   				</td>
 		 			   			</tr>
 		 			   			<tr>
-		 			   				<td>1234</td><td>Karthik shetty</td><td>Male</td>
-		 			   				<td>Gubdibailu</td><td>Information science</td><td>2019</td>
-		 			   				<td>9964300358</td><td>karthiksshetty111@gmail.com</td><td>9.4</td><td>73</td>
-		 			   				<td>Python</td>
+		 			   				<td>1234</td><td>Udith devadiga</td><td>Male</td>
+		 			   				<td>Doddanagudde</td><td>Information science</td><td>2018</td>
+		 			   				<td>9964300358</td><td>udithcdevadiga@gmail.com</td><td>9.4</td><td>73</td>
+		 			   				<td>.net,c#</td>
+		 			   			    <td>
+		 			   				    <div class=" row justify-content-around">
+		 			   				          <a href="#" class="btn btn-success badge badge-pill">Edit</a>
+		 			   				          <a href="#" class="btn btn-danger badge badge-pill">Delete</a>
+		 			   				    </div>
+		 			   				
+		 			   				</td>
+		 			   			</tr>
+		 			   			<tr>
+		 			   				<td>1234</td><td>Jnanesh bayya</td><td>Male</td>
+		 			   				<td>Bijapur</td><td>ECE</td><td>2019</td>
+		 			   				<td>9964300358</td><td>bijapurijnanesh@gmail.com</td><td>-10</td><td>73</td>
+		 			   				<td>verilog</td>
+		 			   			    <td>
+		 			   				    <div class=" row justify-content-around">
+		 			   				          <a href="#" class="btn btn-success badge badge-pill">Edit</a>
+		 			   				          <a href="#" class="btn btn-danger badge badge-pill">Delete</a>
+		 			   				    </div>
+		 			   				
+		 			   				</td>
+		 			   			</tr>
+		 			   			<tr>
+		 			   				<td>1234</td><td>Apeksha</td><td>Female</td>
+		 			   				<td>Surathkal</td><td>Information science</td><td>2019</td>
+		 			   				<td>9964300358</td><td>apekshashetty@gmail.com</td><td>9</td><td>73</td>
+		 			   				<td>c,c++,java</td>
 		 			   			    <td>
 		 			   				    <div class=" row justify-content-around">
 		 			   				          <a href="#" class="btn btn-success badge badge-pill">Edit</a>
