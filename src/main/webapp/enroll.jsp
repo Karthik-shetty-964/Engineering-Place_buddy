@@ -48,11 +48,19 @@
 			  </div>
 			</nav>
      	</div>
-     	<h1 class=" display-4 text-center text-primary">Enroll for Placement drives</h1>
-       <form class="form col-lg-8 col-sm-12 shadow-lg m-auto " action="#" method="post">
+     	<h1 class=" display-4 text-center text-primary"style="font-family: 'Merriweather', serif;">Enroll for Placement drives</h1>
+     	<%
+     		String mess=(String)request.getAttribute("mess");
+            if(mess!=null){
+            	
+     		out.print("<p class='text-center fs-4 text-success'>"+mess+"</p>");
+            }
+     	
+     	%>
+       <form class="form col-lg-8 col-sm-12 shadow-lg m-auto " action="EnrollServlet" method="post">
           <div class="form-group m-3">
               <label for="name" class="mt-2">Register number</label>
-              <input type="number" name="name" placeholder="Enter your register number" class="form-control mt-1">
+              <input type="number" name="regno" placeholder="Enter your register number" class="form-control mt-1">
           </div>
           <div class="form-group m-3">
               <label for="name">Name of the candidate</label>
@@ -92,8 +100,8 @@
 						<input type="number" name="cgpa" class="form-control mt-1" placeholder="Enter you current CGPA">
 					</div>
 					<div class="form group m-3">
-						<label for="hsc">Higher Secondary/PUC</label>
-						<input type="number" name="hsc" class="form-control mt-1" placeholder="Enter your PUC percentage">
+						<label for="puc">Higher Secondary/PUC</label>
+						<input type="number" name="puc" class="form-control mt-1" placeholder="Enter your PUC percentage">
 					</div>
 				
 					<div class="form group m-3">
