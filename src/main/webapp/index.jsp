@@ -50,8 +50,16 @@
 			</div>
 			</div>
 			
-		   <form class="form col-lg-4 col-sm-12 shadow-lg rounded p-4  align-self-center"action="#" method="post">
+			<!--Taking response from the servlet-->
+			<% String mess=(String)request.getAttribute("mess"); %>
+			
+		   <form class="form col-lg-4 col-sm-12 shadow-lg rounded   align-self-center p-5"action="LoginServlet" method="post">
 		      <h1 class="text-success text-center" style="font-family: 'Merriweather', serif;">Please Login here</h1>
+		      
+		      <%if(mess!=null){ %>
+		      <p class="text-danger text-center"><%=mess %></p>
+		      <%} %>
+		      
 		      <div class="form-group m-2">
 		        <label for="username">Username</label>
 		         <input type="text" name="username" placeholder="Enter your name" class="form-control">
@@ -60,10 +68,7 @@
 		        <label for="password">Password</label>
 		        <input type="password" name="password" placeholder="Enter your password" class="form-control">
 		      </div>
-		      <div class="form-group m-2">
-		        <label for="password">Confirm Password</label>
-		        <input type="password" name="password" placeholder="Confirm your password" class="form-control">
-		      </div>
+		      
 		      
 		      <div class="m-3 row justify-content-around">
 		      	 <button type="submit" class="col-6 btn btn-outline-success m-1">Login</button>

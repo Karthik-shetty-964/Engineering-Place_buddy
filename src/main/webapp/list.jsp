@@ -49,7 +49,7 @@
 					  </div>
 					</nav>
 		     	</div>
-		     	<h1 class="text-center mt-2 p-2 text-success" style="font-family: 'Merriweather', serif;">Enrolled students of campus interviews</h1>
+		     	<h1 class="text-center mt-2 p-2 text-success" style="font-family: 'Merriweather', serif;">Enrolled students for campus interviews</h1>
 		    <div class="row justify-content-center">
 		 		<div class="table-responsive-lg">
 		 			<table class="table col-lg-8 col-12 col-sm-12  table-hover table-striped shadow-lg mt-2">
